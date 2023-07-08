@@ -39,7 +39,7 @@ const useHome = () => {
 
   // handlers
   return {
-    name,
+    username,
     password,
     error: { status: isError, message: errorMessage },
     isLogin,
