@@ -69,32 +69,9 @@ export default function Home() {
               />
             </Control>
 
-            {status ? (
-              <Control error={message}>
-                <FieldPassword
-                  placeholder="Password"
-                  error={status}
-                  onUpdate={updatePassword}
-                />
-              </Control>
-            ) : (
-              <Control>
-                <FieldPassword
-                  placeholder="Password"
-                  error={status}
-                  onUpdate={updatePassword}
-                />
-              </Control>
-            )}
-
-            {/* PASSWORD RULES */}
-            {status && (
-              <div className="w-full text-gray-400 text-xs mt-4">
-                {PASSWORD_RULES.map((e, idx) => (
-                  <p key={idx}>*{e.message}</p>
-                ))}
-              </div>
-            )}
+            <Control>
+              <FieldPassword placeholder="Password" onUpdate={updatePassword} />
+            </Control>
           </div>
         ) : (
           <div>
