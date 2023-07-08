@@ -32,7 +32,7 @@ export default function Home() {
   return (
     <main className="min-w-screen min-h-screen flex items-center justify-center bg-gradient-to-r from-cyan-500 to-blue-500">
       {/* AUTH MODAL */}
-      <section className="w-full max-w-[600px] bg-white p-24 rounded-lg drop-shadow-lg text-black">
+      <section className="w-full max-w-[600px] bg-white p-12 md:p-24 rounded-lg drop-shadow-lg text-black m-4">
         <h1 className="text-center font-bold text-4xl mb-4 text-cyan-500">
           frui.
         </h1>
