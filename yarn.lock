@@ -1092,6 +1092,15 @@ fraction.js@^4.2.0:
   resolved "https://registry.yarnpkg.com/fraction.js/-/fraction.js-4.2.0.tgz#448e5109a313a3527f5a3ab2119ec4cf0e0e2950"
   integrity sha512-MhLuK+2gUcnZe8ZHlaaINnQLl0xRIGRfcGk2yl8xoQAfHrSsL3rYu6FCmBdkdbhc9EPlwyGHewaRsvwRMJtAlA==
 
+frui@^0.0.17:
+  version "0.0.17"
+  resolved "https://registry.yarnpkg.com/frui/-/frui-0.0.17.tgz#d337391ed52df61c8f0e11d7ee2a03ed951009ec"
+  integrity sha512-zzvK0PY8JQ7YS5XG0YZRIxf9VC8s+OAFqLgo7bJUVgAGF9VxzDzXMfQ3nrHMRcl6q9Ga5R8Ajm4cEo00ttLvzA==
+  dependencies:
+    inputmask "5.0.8"
+    markdown-to-jsx "7.2.0"
+    moment "2.29.4"
+
 fs.realpath@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/fs.realpath/-/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
@@ -1342,6 +1351,11 @@ inherits@2:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/inherits/-/inherits-2.0.4.tgz#0fa2c64f932917c3433a0ded55363aae37416b7c"
   integrity sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==
+
+inputmask@5.0.8:
+  version "5.0.8"
+  resolved "https://registry.yarnpkg.com/inputmask/-/inputmask-5.0.8.tgz#cd0f70b058c3291a0d4f27de25dbfc179c998bb4"
+  integrity sha512-1WcbyudPTXP1B28ozWWyFa6QRIUG4KiLoyR6LFHlpT4OfTzRqFfWgHFadNvRuMN1S9XNVz9CdNvCGjJi+uAMqQ==
 
 internal-slot@^1.0.3, internal-slot@^1.0.5:
   version "1.0.5"
@@ -1622,6 +1636,11 @@ lru-cache@^6.0.0:
   dependencies:
     yallist "^4.0.0"
 
+markdown-to-jsx@7.2.0:
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/markdown-to-jsx/-/markdown-to-jsx-7.2.0.tgz#e7b46b65955f6a04d48a753acd55874a14bdda4b"
+  integrity sha512-3l4/Bigjm4bEqjCR6Xr+d4DtM1X6vvtGsMGSjJYyep8RjjIvcWtrXBS8Wbfe1/P+atKNMccpsraESIaWVplzVg==
+
 merge-stream@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/merge-stream/-/merge-stream-2.0.0.tgz#52823629a14dd00c9770fb6ad47dc6310f2c1f60"
@@ -1661,6 +1680,11 @@ minimist@^1.2.0, minimist@^1.2.6:
   version "1.2.8"
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.8.tgz#c1a464e7693302e082a075cee0c057741ac4772c"
   integrity sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==
+
+moment@2.29.4:
+  version "2.29.4"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.4.tgz#3dbe052889fe7c1b2ed966fcb3a77328964ef108"
+  integrity sha512-5LC9SOxjSc2HF6vO2CyuTDNivEdoz2IvyJJGj6X8DJ0eFyfszE0QiEd+iXmBvUP3WHxSjFH/vIsA0EN00cgr8w==
 
 ms@2.1.2:
   version "2.1.2"
@@ -1989,6 +2013,16 @@ prelude-ls@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.2.1.tgz#debc6489d7a6e6b0e7611888cec880337d316396"
   integrity sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==
+
+prettier-plugin-tailwindcss@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/prettier-plugin-tailwindcss/-/prettier-plugin-tailwindcss-0.3.0.tgz#8299b307c7f6467f52732265579ed9375be6c818"
+  integrity sha512-009/Xqdy7UmkcTBpwlq7jsViDqXAYSOMLDrHAdTMlVZOrKfM2o9Ci7EMWTMZ7SkKBFTG04UM9F9iM2+4i6boDA==
+
+prettier@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.0.0.tgz#e7b19f691245a21d618c68bc54dc06122f6105ae"
+  integrity sha512-zBf5eHpwHOGPC47h0zrPyNn+eAEIdEzfywMoYn2XPi0P44Zp0tSq64rq0xAREh4auw2cJZHo9QUob+NqCQky4g==
 
 prop-types@^15.8.1:
   version "15.8.1"
